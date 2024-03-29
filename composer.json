@@ -15,7 +15,6 @@
 		"psr/log": "^1.1"
 	},
 	"require-dev": {
-		"codeigniter4/codeigniter4-standard": "^1.0",
 		"fakerphp/faker": "^1.9",
 		"mikey179/vfsstream": "^1.6",
 		"phpunit/phpunit": "^9.1",

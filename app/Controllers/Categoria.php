@@ -61,6 +61,7 @@ class Categoria extends BaseController
 					'max_length' => 'Descripcion excede el largo de 255 caracteres'
 				]
 			];
+			
 			if (!$this->validate($rules, $messages)) {
 				$msg['error'] = [
 					'nombre' => $this->validator->getError('nombre'),
